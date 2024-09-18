@@ -1,0 +1,13 @@
+#EXERCICIO 1 Correlação Positiva Forte (Horas de Estudo x Nota em uma prova)
+
+import matplotlib.pyplot as plt
+
+x=[2, 3, 4, 5, 1, 6, 7, 8, 2, 5]
+y=[50, 55, 65, 70, 40, 75, 85, 90, 48, 68]
+
+plt.scatter(x,y, s=200, c='red', edgecolors='black')
+plt.title('Horas de Estudo x Nota em uma prova', fontsize=14)
+plt.xlabel('Horas de Estudo', fontsize=12)
+plt.ylabel('Nota na Prova',fontsize=12)
+plt.tick_params(axis='both', labelsize=14)
+plt.show()
