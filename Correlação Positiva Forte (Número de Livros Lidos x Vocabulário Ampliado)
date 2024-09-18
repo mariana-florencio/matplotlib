@@ -1,0 +1,13 @@
+#Exercício 2: Correlação Positiva Forte (Número de Livros Lidos x Vocabulário Ampliado)
+
+
+import matplotlib.pyplot as plt
+
+x=[5, 3, 8, 6, 10, 4, 7, 9, 2, 1]
+y=[100, 60, 150, 120, 200, 80, 130, 180, 50, 20]
+plt.scatter(x,y, s=100, c='pink', edgecolors='black')
+plt.title('(Número de Livros Lidos x Vocabulário Ampliado', fontsize=14)
+plt.xlabel('Livros Lidos', fontsize=12)
+plt.ylabel('Novas Palavras Aprendidas', fontsize=12)
+plt.tick_params(axis='both', labelsize=14)
+plt.show()
