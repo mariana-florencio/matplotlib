@@ -1,0 +1,12 @@
+#Exercício 3: Correlação Negativa Forte (Consumo de Fast Food x Nível de Saúde)
+
+import matplotlib.pyplot as plt
+
+x=[10, 8, 12, 15, 5, 3, 1, 6, 9, 7]
+y=[40, 50, 30, 25, 65, 80, 90, 55, 45, 50]
+plt.scatter(x,y, s=100, c='green', edgecolors='black')
+plt.title('Consumo de Fast Food x Nível de Saúde', fontsize=14)
+plt.xlabel('Fast Food por Semana', fontsize=12)
+plt.ylabel('Nível de Saúde(escala 1 a 100)', fontsize=12)
+plt.tick_params(axis='both', labelsize=14)
+plt.show()
